@@ -91,6 +91,13 @@ img {
   box-shadow: 0 2px 3px black;
 }
 
+.footnotes {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: space-evenly;
+}
+
 #front {
   background: url("https://s3.amazonaws.com/learn-verified/cover.jpg");
   background-size: 100%;
@@ -104,9 +111,9 @@ img {
 }
 
 #title-box {
-  width: 252px;
+  width: 295px;
   height: 165px;
   background: rgba(247,211,27,1);
-  margin-left: 163px;
+  margin-left: 130px;
   padding-top: 25px;
 }
